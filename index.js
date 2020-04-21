@@ -10,7 +10,8 @@ async function handleRequest(request) {
 	return fetch(url, thing)
 		.then(response => {
 			if (response.status === 200) {
-			  return urls.push(response.json());
+        urls.push(response.json())
+			  return urls;
 			} else { 
         return response.text()
         console.log(response)
