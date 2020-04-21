@@ -1,6 +1,6 @@
 name = "cloudflare_app"
 type = "javascript"
-account_id = "a3e36597-bb41-4e4b-92e8-863119142458"
+account_id = "56309e8d6f58674bb169cfd917dda842"
 workers_dev = true
 route = ""
 zone_id = "mupotsal.workers.dev"
